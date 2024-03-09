@@ -7,7 +7,7 @@ export default function App() {
  const [fontsLoaded] = useFonts({Roboto_400Regular,Roboto_700Bold})
 
   return (
-    <View style={{flex:1, alignItems:'center', justifyContent:'center'}} >
+    <View style={{flex:1, alignItems:'center', justifyContent:'center', backgroundColor:"#202024"}} >
       {fontsLoaded ? 
       <Text>ALFA</Text> : <View/>}
     </View>
