@@ -14,6 +14,11 @@ export function Input({...rest}:Props) {
             fontFamily="body"
             mb={4}
             placeholderTextColor="gray.300"
+            _focus={{
+                bg:"gray.700",
+                borderWidth:1,
+                borderColor:"green.500"
+            }}
             {...rest}
 
         />
