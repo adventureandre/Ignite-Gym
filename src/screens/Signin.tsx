@@ -23,15 +23,23 @@ export function SignIn() {
                     Acesse sua conta
                 </Heading>
                 <Input placeholder="E-mail"
-                keyboardType="email-address"
-                autoCapitalize="none"
+                    keyboardType="email-address"
+                    autoCapitalize="none"
                 />
                 <Input placeholder="Senha"
-                secureTextEntry
+                    secureTextEntry
                 />
-                <Button title="Acessar"/>
+                <Button title="Acessar" />
             </Center>
-            <Button title="Criar Conta" variant="outline"/>
+            <Center mt={24}>
+                <Text color="gray.100" fontSize="sm" mb={3} fontFamily="body">
+                    Ainda não tem Acesso?
+                </Text>
+                <Button 
+                title="Criar Conta" 
+                variant="outline" />
+            </Center>
+
         </VStack>
     );
 }
