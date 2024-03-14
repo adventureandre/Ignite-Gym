@@ -3,6 +3,7 @@ import { VStack, Image, Text, Center, Heading } from "native-base";
 import LogoSvg from "@assets/logo.svg"
 import BackgroundImg from '@assets/background.png';
 import { Input } from "@components/Input";
+import { Button } from "@components/Button";
 
 export function SignIn() {
     return (
@@ -28,6 +29,7 @@ export function SignIn() {
                 <Input placeholder="Senha"
                 secureTextEntry
                 />
+                <Button title="Acessar"/>
             </Center>
 
         </VStack>
