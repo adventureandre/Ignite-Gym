@@ -31,7 +31,7 @@ export function SignIn() {
                 />
                 <Button title="Acessar"/>
             </Center>
-
+            <Button title="Criar Conta" variant="outline"/>
         </VStack>
     );
 }
