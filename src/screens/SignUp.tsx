@@ -40,7 +40,7 @@ export function SignUp() {
                 
                     <Button
                     mt={24}
-                        title="Criar Conta"
+                        title="Voltar para o login"
                         variant="outline" />
                
 
